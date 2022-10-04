@@ -1,0 +1,26 @@
+.button__toggle {
+    width: 35px;
+    height: 25px;
+    align-items: center;
+    border: unset;
+    background-color: unset;
+    background-position: center;
+    background-size: cover;
+    margin: 2px;
+    cursor: pointer;
+}
+  
+  @media screen and (max-width: 879px) {
+    .button__toggle {
+      width: 30px;
+      height: 20px;
+    }
+}
+
+.button__toggle_not-done {
+  background-image: url(../../../images/toggle_off_FILL0_wght200_GRAD0_opsz48.svg);
+}
+
+.button__toggle_done {
+  background-image: url(../../../images/toggle_on_FILL0_wght200_GRAD0_opsz48.svg);
+}

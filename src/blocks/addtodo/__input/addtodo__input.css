@@ -1,0 +1,18 @@
+.addtodo__input {
+    border: 0;
+    background-color: #aed6ae;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+    width: 85%;
+    font-size: 20px;
+    line-height: 17px;
+  }
+  
+  .addtodo__input::placeholder {
+    opacity: 1;
+    color:rgba(0,0,0,.2);
+    padding: 2px 3px;
+  }
+  
+  .addtodo__input:focus {
+    outline: none;
+  }

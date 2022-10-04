@@ -1,0 +1,21 @@
+.button {
+    border: unset;
+    background-color: unset;
+    background-position: center;
+    background-size: cover;
+    margin: 2px;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+}
+
+.button:hover {
+    transform: translateY(-0.7px);
+}
+
+@media screen and (max-width: 879px) {
+    .button{
+      width: 22px;
+      height: 22px;
+    }
+}

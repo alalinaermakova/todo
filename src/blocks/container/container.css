@@ -1,0 +1,10 @@
+.container {
+    margin: auto;
+    height: 72vh;
+}
+  
+  @media screen and (max-width: 678px) {
+    .container {
+      height: 60vh;
+    }
+}

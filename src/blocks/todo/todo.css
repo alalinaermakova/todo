@@ -1,0 +1,47 @@
+.todo {
+    font-size: 20px;
+    display: block;
+    width: 400px;
+    height: 84px;
+    background-color: #fffefe;
+    box-shadow: 0px 0px 9px #E6E6E6;
+    border-radius: 11px;
+    margin: 10px;
+    padding: 20px 15px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  @media screen and (max-width: 1279px) {
+    .todo {
+      font-size: 19px;
+      width: 370px;
+      height: 79px;
+    }
+  }
+  
+  @media screen and (max-width: 979px) {
+    .todo {
+      font-size: 18px;
+      width: 340px;
+      height: 70px;
+    }
+  }
+  
+  @media screen and (max-width: 779px) {
+    .todo {
+      font-size: 18px;
+      width: 310px;
+      height: 60px;
+    }
+  }
+  
+  @media screen and (max-width: 579px) {
+    .todo {
+      font-size: 16px;
+      width: 270px;
+      height: 50px;
+    }
+  }

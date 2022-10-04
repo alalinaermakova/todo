@@ -1,0 +1,19 @@
+@media screen and (max-width: 720px) {
+    .footer__item {
+        padding-bottom: 22px;
+}
+  
+.footer__item:last-of-type {
+        padding-bottom: 26px;
+    }   
+}
+  
+@media screen and (max-width: 340px) {
+    .footer__item {
+        padding-bottom: 12px;
+}
+  
+.footer__item:last-of-type {
+        padding-bottom: 16px;
+    }   
+}

@@ -1,0 +1,6 @@
+.footer {
+    max-width: 998px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+}
